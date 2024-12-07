@@ -1,26 +1,29 @@
-# YouTube_Data_Analysis
-Data Engineering YouTube Analysis Project by Darshil Parmar
+YouTube_Data_Analysis
+Data Engineering YouTube Analysis Project by Muhammad Anwaar Ul Mustafa
+
 Overview
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
+This project is designed to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube video data based on video categories and trending metrics.
 
 Project Goals
-Data Ingestion — Build a mechanism to ingest data from different sources
-ETL System — We are getting data in raw format, transforming this data into the proper format
-Data lake — We will be getting data from multiple sources so we need centralized repo to store them
-Scalability — As the size of our data increases, we need to make sure our system scales with it
-Cloud — We can’t process vast amounts of data on our local computer so we need to use the cloud, in this case, we will use AWS
-Reporting — Build a dashboard to get answers to the question we asked earlier
-Services we will be using
-Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
-AWS IAM: This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.
-QuickSight: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud.
-AWS Glue: A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.
-AWS Lambda: Lambda is a computing service that allows programmers to run code without creating or managing servers.
-AWS Athena: Athena is an interactive query service for S3 in which there is no need to load data it stays in S3.
+Data Ingestion — A mechanism to ingest data from different sources will be built.
+ETL System — Raw data will be obtained and transformed into the proper format.
+Data Lake — Data from multiple sources will be centralized and stored in a repository.
+Scalability — The system will be ensured to scale with increasing data size.
+Cloud — The cloud (AWS) will be used for processing vast amounts of data as local computers are insufficient.
+Reporting — A dashboard will be created to provide answers to previously defined questions.
+Services Used
+Amazon S3: An object storage service that provides manufacturing scalability, data availability, security, and performance.
+AWS IAM: Identity and access management will be used to securely manage access to AWS services and resources.
+QuickSight: A scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service designed for the cloud.
+AWS Glue: A serverless data integration service that simplifies discovering, preparing, and combining data for analytics, machine learning, and application development.
+AWS Lambda: A computing service that enables the execution of code without the need to create or manage servers.
+AWS Athena: An interactive query service for S3 that allows querying data without needing to load it.
 Dataset Used
-This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
+The dataset from Kaggle contains statistics (CSV files) on daily trending YouTube videos over several months. There are up to 200 trending videos published every day for various locations. The data for each region is stored in separate files. The data includes video titles, channel titles, publication times, tags, views, likes, dislikes, descriptions, and comment counts. A category_id field, which varies by region, is also included in the JSON file linked to the respective region.
 
-https://www.kaggle.com/datasets/datasnaek/youtube-new
+Dataset link: Kaggle YouTube Data
 
 Architecture Diagram
-<img width="323" alt="Data Archetecture " src="https://github.com/user-attachments/assets/9203d0c0-2b67-4d1d-ad17-44a57526ffdf">
+
+
+This version follows the passive voice structure, emphasizing actions and processes rather than who is performing them. Let me know if you need further changes!
